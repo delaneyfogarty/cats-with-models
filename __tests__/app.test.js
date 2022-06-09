@@ -23,11 +23,6 @@ describe('cats routes', () => {
     const felix = {
       id: '1',
       name: 'Felix',
-      type: 'Tuxedo',
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/200px-Felix_the_cat.svg.png',
-      year: 1892,
-      lives: 3,
-      isSidekick: false,
     };
     expect(res.body).toEqual(felix);
   });
